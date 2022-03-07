@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post" action="404.html">
+        <p>
+            <label for="NOM">NOM</label>
+            <input type="text" name="NOM" id="NOM" placeholder="entrez votre nom" tabindex="1"/>
+  
+            <label for="PRENOM">PRENOM</label>
+            <input type="text" name="PRENOM" id="PRENOM" placeholder="entrez votre prenom" tabindex="2" />
+       </p>
+
+       <p>
+        <label for="DATEDENAISSANCE">DATE DE NAISSANCE</label>
+        <INPUT type="date" name="DATEDENAISSANCE" id="DATEDENAISSANCE" tabindex="3" />
+
+       </p>
+       
+      <p>
+        GENRE
+        <label for="MASCULIN">MASCULIN</label>
+        <input type="checkbox" name="MASCULIN" id="MASCULIN" tabindex="4"/>
+        <label for="FEMININ">FEMININ</label>
+        <input type="checkbox" name="FEMININ" id="FEMININ" tabindex="5" />
+        <label for="AUTRE">AUTRE</label>
+        <input type="checkbox" name="AUTRE" id="AUTRE" tabindex="6" />
+
+      </p>
+
+    <p>
+        Avez vous le permis ?
+        <label for="oui">oui</label>
+        <input type="radio" name="oui" id="oui" tabindex="7" />
+        <label for="non">non</label>
+        <input type="radio" name="non" id="non" tabindex="8" />
+
+</p>
+
+<p>
+    <label for="pays">Dans quel pays habitez-vous ?</label>
+    <select name="pays" id="pays" tabindex="9">
+        <option value="france">France</option>
+        <option value="espagne">Espagne</option>
+        <option value="italie">Italie</option>
+        <option value="royaume-uni">Royaume-Uni</option>
+        <option value="canada">Canada</option>
+        <option value="etats-unis">États-Unis</option>
+        <option value="chine">Chine</option>
+        <option value="japon">Japon</option>
+    </select>
+</p>
+
+<p>
+    <label for="Telephone">Telephone</label>
+    <input type="tel" placeholder="0134875434" id="Telephone" tabindex="10" />
+</p>
+
+<p>
+    <label for="EMAIL">EMAIL</label>
+    <input type="email" placeholder="exemple@gmail.com" id="EMAIL" tabindex="11" >
+
+</p>
+
+<p>
+    <label for="pass">Votre mot de passe :</label>
+    <input type="password" name="pass" id="pass" placeholder="***********" minlength="8" tabindex="12" />
+
+</p>
+
+<p>
+
+    <button type="submit" tabindex="13">envoyer</button>
+
+        <button type="reset" tabindex="14">effacer</button>
+    </p>
+
+</form>
+</body>
+</html>
